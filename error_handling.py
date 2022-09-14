@@ -26,10 +26,10 @@
 # exercise
 test_list = [1, 2, 3]
 try:
-    print(test_list[3])
+    test_list[3]
 except IndexError:
     print('Index does not exist')
 else:
-    print('else')
+    print('Index does exist')
 finally:
     print('finally')
